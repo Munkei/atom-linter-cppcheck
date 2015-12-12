@@ -36,5 +36,5 @@
     "type": "git",
     "url": "https://github.com/Munkei/atom-linter-cppcheck"
   },
-  "version": "0.0.0"
+  "version": "0.1.0"
 }
