@@ -1,0 +1,4 @@
+{
+  "name": "linter-cppcheck",
+  "type": "atom-package"
+}
