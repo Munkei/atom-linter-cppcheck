@@ -1,6 +1,9 @@
 # linter-cppcheck #
 
-[![Build Status](https://travis-ci.org/Munkei/atom-linter-cppcheck.svg?branch=master)](https://travis-ci.org/Munkei/atom-linter-cppcheck)
+[![Build Status](https://img.shields.io/travis/Munkei/atom-linter-cppcheck.svg?style=flat-square)](https://travis-ci.org/Munkei/atom-linter-cppcheck)
+[![Downloads](https://img.shields.io/apm/dm/linter-cppcheck.svg?style=flat-square)](https://atom.io/packages/linter-cppcheck)
+
+---
 
 A [linter] for [Atom] using [Cppcheck].
 
