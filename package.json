@@ -1,7 +1,7 @@
 {
   "activationCommands": {},
   "author": {
-    "name": "Theo Willows",
+    "name": "Theo ‘Biffen’ Willows",
     "email": "theo@willows.se"
   },
   "bugs": {
@@ -9,11 +9,19 @@
   },
   "contributors": [],
   "dependencies": {
-    "atom-linter": "^4.1.1"
+    "atom-linter": "^8.0.0"
   },
   "description": "A linter for Atom using Cppcheck",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
+  },
+  "eslintConfig": {
+    "env": {
+      "parserOptions": {
+        "ecmaVersion": 6,
+        "sourceType": "module"
+      }
+    }
   },
   "homepage": "https://github.com/Munkei/atom-linter-cppcheck",
   "keywords": [

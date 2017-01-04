@@ -1,6 +1,7 @@
 # linter-cppcheck #
 
 [![Build Status](https://img.shields.io/travis/Munkei/atom-linter-cppcheck.svg?style=flat-square)](https://travis-ci.org/Munkei/atom-linter-cppcheck)
+[![License](https://img.shields.io/github/license/Munkei/atom-linter-cppcheck.svg?style=flat-square)](https://github.com/Munkei/atom-linter-cppcheck/blob/master/LICENSE.md)
 [![Downloads](https://img.shields.io/apm/dm/linter-cppcheck.svg?style=flat-square)](https://atom.io/packages/linter-cppcheck)
 
 ---
