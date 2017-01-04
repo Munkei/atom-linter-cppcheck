@@ -3,28 +3,43 @@
 All notable changes to this project will be documented in this file. This
 project adheres to [Semantic Versioning], and this file to [Keep a CHANGELOG].
 
+## Unreleased ##
+
+### Added ###
+
+*   The [Cppcheck] command and its arguments are now logged (debug level) before
+    execution. #7
+
+*   If [Cppcheck] execution fails, a notification is now shown. #7
+
+### Fixed ###
+
+*   Made sure ‘unusedFunction’ and ‘missingInclude’ checks actually work. #7
+
 ## 0.2.0 - 2016-02-11 ##
 
 ### Added ###
 
-*   Support for ‘C++14’ grammar (that [language-cpp14] uses)
+*   Support for ‘C++14’ grammar (that [language-cpp14] uses). #1
 
 ### Fixed ###
 
-*   Removed a warning about `suppress`'s default value
+*   Removed a warning about `suppress`'s default value.
 
 ## 0.1.1 - 2015-12-19 ##
 
 ### Fixed ###
 
-*   Removed unused dependency and code
+*   Removed unused dependency and code.
 
 ## 0.1.0 - 2015-12-12 ##
 
 Initial release.
 
+  [Cppcheck]: http://cppcheck.sourceforge.net
+
   [Keep a CHANGELOG]: http://keepachangelog.com
 
-  [language-cpp14]: https://atom.io/packages/language-cpp14
-
   [Semantic Versioning]: http://semver.org
+
+  [language-cpp14]: https://atom.io/packages/language-cpp14
