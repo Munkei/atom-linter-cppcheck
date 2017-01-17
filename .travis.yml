@@ -25,13 +25,6 @@ notifications:
     on_success: never
     on_failure: change
 
-branches:
-  only:
-    - master
-
-git:
-  depth: 10
-
 sudo: false
 
 addons:

@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. This
 project adheres to [Semantic Versioning], and this file to [Keep a CHANGELOG].
 
+## 0.2.2 - 2017-01-17 ##
+
+### Fixed ###
+
+*   Fixed some deprecated CSS selectors. Atom shouldn't warn about deprecations
+    anymore. #8
+
 ## 0.2.1 - 2017-01-04 ##
 
 ### Added ###
