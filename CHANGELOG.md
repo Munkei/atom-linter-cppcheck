@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file. This
 project adheres to [Semantic Versioning], and this file to [Keep a CHANGELOG].
 
+## 0.2.3 - 2017-03-19 ##
+
+### Added ###
+
+*   Documentation about configuration, esp. for configuring the *Executable* on
+    Windows. #11
+
+### Fixed ###
+
+*   A JavaScript deprecation. #12
+
 ## 0.2.2 - 2017-01-17 ##
 
 ### Fixed ###
@@ -50,3 +61,7 @@ Initial release.
   [Semantic Versioning]: http://semver.org
 
   [language-cpp14]: https://atom.io/packages/language-cpp14
+
+<!--
+LocalWords:  linter cppcheck CHANGELOG unusedFunction missingInclude cpp
+ -->
