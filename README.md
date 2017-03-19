@@ -6,6 +6,13 @@
 
 ---
 
+> **Looking for maintainers** I, the maintainer and sole developer of Linter
+> Cppcheck, am not using it myself anymore, and have very little time to keep it
+> up-to-date and bug-free. If you would like to take over ownership of this
+> project, or simply contribute, please contact me.
+
+---
+
 A [linter] for [Atom] using [Cppcheck].
 
 ## Requirements ##
