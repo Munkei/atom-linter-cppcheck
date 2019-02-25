@@ -1,4 +1,11 @@
-# linter-cppcheck #
+# ⚠ This software is no longer maintained! ⚠
+
+`linter-cppcheck` is no longer maintained, and should be considered deprecated.
+We do no longer accept bug reports, feature requests or pull requests.
+
+If you’d like to take over ownership of this project, please contact @biffen.
+
+# linter-cppcheck
 
 [![Build Status](https://img.shields.io/travis/Munkei/atom-linter-cppcheck.svg?style=flat-square)](https://travis-ci.org/Munkei/atom-linter-cppcheck)
 [![License](https://img.shields.io/github/license/Munkei/atom-linter-cppcheck.svg?style=flat-square)](https://github.com/Munkei/atom-linter-cppcheck/blob/master/LICENSE.md)
@@ -6,55 +13,43 @@
 
 ---
 
-> **Looking for maintainers** I, the maintainer and sole developer of Linter
-> Cppcheck, am not using it myself anymore, and have very little time to keep it
-> up-to-date and bug-free. If you would like to take over ownership of this
-> project, or simply contribute, please contact me.
-
----
-
 A [linter] for [Atom] using [Cppcheck].
 
-## Requirements ##
+## Requirements
 
 [Cppcheck] needs to be installed (or at least available). Its path can be
 configured.
 
 Without [Linter] this package is rather useless.
 
-## Configuration ##
+## Configuration
 
-The package settings are available at: *Edit* > *Preferences* > *Packages* >
-*linter-cppcheck*
+The package settings are available at: _Edit_ > _Preferences_ > _Packages_ >
+_linter-cppcheck_
 
 You can configure the location of the Cppcheck executable. The default is to
 look for `cppcheck` in your `$PATH` environment variable. In most cases this
 should ‘just work’.
 
-**For Windows users:** Cppcheck’s executable is probably *not* available as
-`cppcheck` in your `%PATH%`. On Windows you will *most likely* have to configure
-the path yourself in the *Executable* field (e.g. `C:\Program
-Files\Cppcheck\cppcheck.exe`, but it may vary).
+**For Windows users:** Cppcheck’s executable is probably _not_ available as
+`cppcheck` in your `%PATH%`. On Windows you will _most likely_ have to configure
+the path yourself in the _Executable_ field (e.g.
+`C:\Program Files\Cppcheck\cppcheck.exe`, but it may vary).
 
 You can also configure which checks Cppcheck should perform. If you want to know
-more about these checks please see [the Cppcheck Manual] (PDF) or run `man
-cppcheck`.
+more about these checks please see [the Cppcheck Manual](PDF) or run `man cppcheck`.
 
-## Acknowledgements ##
+## Acknowledgements
 
 This package is really a tiny amount of glue between other great pieces of
 software, namely the [Linter] package, the [atom-linter] module and — of course
 — [Cppcheck].
 
-  [Atom]: https://atom.io
-
-  [atom-linter]: https://www.npmjs.com/package/atom-linter
-
-  [Cppcheck]: http://cppcheck.sourceforge.net
-
-  [the Cppcheck Manual]: http://cppcheck.sourceforge.net/manual.pdf
-
-  [Linter]: https://atom.io/packages/linter
+[atom]: https://atom.io
+[atom-linter]: https://www.npmjs.com/package/atom-linter
+[cppcheck]: http://cppcheck.sourceforge.net
+[the cppcheck manual]: http://cppcheck.sourceforge.net/manual.pdf
+[linter]: https://atom.io/packages/linter
 
 <!--
 LocalWords:  linter cppcheck Cppcheck’s exe
